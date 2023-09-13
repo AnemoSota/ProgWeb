@@ -1,0 +1,5 @@
+
+span
+p > span
+span.cl1
+span[title="css"]
