@@ -1,4 +1,7 @@
 
+Seletores identificados corretamente
+Nota: 2.0
+
 span
 p > span
 span.cl1
