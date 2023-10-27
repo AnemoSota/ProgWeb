@@ -9,7 +9,6 @@ router.get('/' , mainController.index);
 router.get('/sobre' , mainController.sobre);
 
 router.get('/game', gameController.game);
-// router.use('/game', gameController.game);
 
 router.get('/area', areaController.index);
 
