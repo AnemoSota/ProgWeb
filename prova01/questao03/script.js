@@ -1,41 +1,43 @@
+/* Código desenvolvido corretamente */
+/* Nota: 2.0 */
 
-class Venda{
+class Venda {
     #id
     #quantidade
     #preco
 
-    constructor(id, quant, preco){
+    constructor(id, quant, preco) {
         this.setId(id);
         this.setQuant(quant);
         this.setPreco(preco);
     }
 
-    setId(id){
+    setId(id) {
         this.#id = id;
     }
 
-    setQuant(quant){
+    setQuant(quant) {
         this.#quantidade = quant;
     }
 
-    setPreco(preco){
+    setPreco(preco) {
         this.#preco = preco;
     }
 
-    getId(){
+    getId() {
         return this.#id;
     }
 
-    getQuant(){
+    getQuant() {
         return this.#quantidade;
     }
 
-    getPreco(){
+    getPreco() {
         return this.#preco;
     }
 
-    getValorTotal(){
-        return (this.getQuant()*this.getPreco());
+    getValorTotal() {
+        return (this.getQuant() * this.getPreco());
     }
 
 }

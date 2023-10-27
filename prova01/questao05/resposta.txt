@@ -1,3 +1,6 @@
+Explicação correta
+Nota: 2.0
+
 Em javascript, ambos são operadores de igualdade,
 porém o operador "==" força os valores comparados
 a serem do mesmo tipo, enquanto o operador "==="
