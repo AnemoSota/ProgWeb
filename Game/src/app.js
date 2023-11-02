@@ -1,11 +1,14 @@
 const express = require("express");
 const app = express();
+const logger = require("morgan");
 const router = require("./router/router");
 const handlebars = require('express-handlebars');
 const sass = require('node-sass-middleware');
 
 
 const PORT = 3000;
+
+app.use(logger("short"));
 
 app.engine("handlebars", handlebars.engine());
 app.set("view engine", "handlebars");
